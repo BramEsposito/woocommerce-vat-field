@@ -1,0 +1,21 @@
+{
+    "name": "b35/woocommerce-vat-field",
+    "description": "Add a VAT field to your Woocommerce checkout",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "B35\\WoocommerceVatField\\": "src/"
+        }
+    },
+    "config": {
+        "vendor-dir": "lib"
+    },
+    "authors": [
+        {
+            "name": "Bram Esposito",
+            "email": "bram@bramesposito.com"
+        }
+    ],
+    "require": {}
+}
