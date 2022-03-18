@@ -1,5 +1,5 @@
 {
-    "name": "b35/woocommerce-vat-field",
+    "name": "bramesposito/woocommerce-vat-field",
     "description": "Add a VAT field to your Woocommerce checkout",
     "type": "wordpress-plugin",
     "license": "MIT",
