@@ -21,6 +21,7 @@ class ComposerStaticInit1a3cfc24698921297c01bf5a1ffa6341
     );
 
     public static $classMap = array (
+        'B35\\WoocommerceVatField\\VatField' => __DIR__ . '/../..' . '/src/VatField.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 

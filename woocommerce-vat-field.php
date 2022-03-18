@@ -14,17 +14,16 @@ defined( 'ABSPATH' ) || exit;
 
 require __DIR__ . '/lib/autoload.php';
 
-var_dump(__DIR__ );
-
-$data = require __DIR__ . '/lib/composer/autoload_psr4.php';
-
-var_dump($data);
-
 use B35\WoocommerceVatField\VatField;
 
-if ( ! class_exists('VatField'))
-    die('There is no hope!');
-
-die('there is actually HOPE!');
-
 $vat_field = new VatField();
+
+/**
+ * @param array      $array
+ * @param int|string $position
+ * @param mixed      $insert
+ */
+function array_insert($array, $length, $insert)
+{
+    return array_merge(array_slice($array, 0, $length), $insert, array_slice($array, $length, count($array)-$length));
+}
